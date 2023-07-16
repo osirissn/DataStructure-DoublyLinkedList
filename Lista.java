@@ -1,4 +1,4 @@
- // CLASSE LISTA DUPLAMENTE ENCADEADA - MÉTODOS
+ // CLASSE LISTA DUPLAMENTE ENCADEADA
 public class LDE {
 
     public DNode inicio;
@@ -20,7 +20,7 @@ public class LDE {
         return tamanho == 0;
 
     }
-
+ // CLASSE LISTA DUPLAMENTE ENCADEADA - MÉTODOS
     public void inserir_pos(int pos, Object v) {
         if (pos < 0 || pos > tamanho) {
             System.out.println("POSICAO INVALIDA!!!!");
